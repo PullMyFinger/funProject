@@ -120,6 +120,7 @@ div div {
 
 .head:hover {
   transform: rotate(-5deg) translate(-4px, -8px);
+  transition: 0.5s;
 }
 
 .l_arm:hover{
@@ -137,4 +138,13 @@ div div {
 #shaft:hover + #p_head {
   top: 226px;
   background: darkgreen;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+h5 {
+  text-align: right;
 }
